@@ -46,7 +46,7 @@ li{
 
 .contents{
   width: 1000px;
-  margin: 50px auto;
+  margin: 150px auto;
 }
 
 section{
@@ -55,14 +55,29 @@ section{
 
 
 .pic{
-  margin-right: 30px;
+  margin-right: 75px;
 }
 
 .desc{
   flex: 1;
 }
 
+.desc h1{
+  font-size:  45px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
 
+.contents2{
+  width: 1000px;
+  margin: 150px auto;
+}
+
+
+
+
+
+/* グリッドボックスエリア */
 .grid{
   display: grid;
 grid-template-columns: 400px 400px;
@@ -111,7 +126,7 @@ table{
 .box5{
   background-color: hsl(240, 60%, 60%);
 }
-
+/* グリッドボックスエリア修了 */
 
 
 
