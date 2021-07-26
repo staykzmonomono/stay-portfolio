@@ -1,3 +1,7 @@
+@import url(sanitize.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
 body{
   margin: 0;
   background-color: rgb(243,243,243);
@@ -15,14 +19,24 @@ header{
 /* 画像とタイトルのエリア */
 .top-wrapper{
   margin: 0 auto;
-  height: 300px;
+  height: 500px;
   background-image: url(../images/main.png);
   background-size: cover;
 background-position: center bottom;
-opacity: 0.5;
+background-color: rgba(255,255,255,0.5);
+background-blend-mode:lighten;
   padding: 180px 0 0 700px;
+  position: relative;
+
 }
 
+.container{
+  font-size: 25px;
+position: absolute; 
+top: 85px;
+right: 740px;
+font-family: 'Yusei Magic', sans-serif;
+}
 
 /* ナブゲーションエリア */
 ul{
@@ -140,3 +154,16 @@ footer{
   background-color: blueviolet;
 }
 
+@media only screen and (max-width: 600px){
+
+header{
+  padding: 5px;
+  font-size: 12px;
+}
+
+.container{
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+}
