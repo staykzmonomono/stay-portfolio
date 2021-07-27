@@ -21,7 +21,7 @@ justify-content: space-between;
 }
 
 #header .header-link li{
-  font-size: 12px;
+  font-size: 15px;
   padding: 0 10px;
 }
 
@@ -35,8 +35,7 @@ margin-top: 12px;
 
 /* 画像とタイトルのエリア */
 .top-wrapper{
-
-  height: 500px;
+height: 500px;
   background-image: url(../images/main.png);
   background-size: cover;
 background-position: center bottom;
@@ -45,7 +44,6 @@ background-blend-mode:lighten;
   padding: 180px 0 0 700px;
   padding-top: 50px;
   padding-left: 50px;
-
 }
 
 
@@ -55,11 +53,11 @@ text-align: center;
 }
 
 .container h1{
-  font-family: 'Damion'
+  font-family: 'Damion';
 }
 
 .container h2{
-  font-family: 'Damion'
+  font-family: 'Damion';
 }
 
 /* ナブゲーションエリア */
@@ -69,7 +67,7 @@ text-align: center;
   padding-top: 30px;
 list-style: none;
 justify-content: space-around;
-background-color: aqua
+background-color: aqua;
 }
 
 .menu li{
@@ -163,19 +161,12 @@ justify-content: center;
 }
 
 .box1sen{
-background-color: white
+background-color: white;
 }
 
 table{
   margin: 0 auto;
 }
-
-/* .classp{
-  background-color: yellow;
-  font-size: 14px;
-} */
-
-
 
 
 .box2{
@@ -221,19 +212,18 @@ table{
 }
 
 #footer .footer-link li{
-  font-size: 12px;
+  font-size: 15px;
   padding: 0 20px;
 }
 
 .copyright{
-  font-size: 11px;
-    /* color: #8c8c8c; */
+  font-size: 15px;
   text-align: center;
 }
 
 .copyright p{
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1px;
 }
 
 
