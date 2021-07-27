@@ -1,24 +1,41 @@
 @import url(sanitize.css);
-
-@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
 
 body{
   margin: 0;
   background-color: rgb(243,243,243);
-
 }
-
-header{
-  height: 45px;
+#header{
   background-color: aquamarine;
+  height: 65px;
 }
 
+#header .header-inner{
+display: flex;
+justify-content: space-between;
+}
+
+#header .header-link ul{
+  margin-bottom: 10px;
+  display: flex;
+}
+
+#header .header-link li{
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+#header .header-inner p{
+  font-size: 20px;
+  text-align: left;
+margin-top: 12px;
+}
 
 
 
 /* 画像とタイトルのエリア */
 .top-wrapper{
-  margin: 0 auto;
+
   height: 500px;
   background-image: url(../images/main.png);
   background-size: cover;
@@ -26,20 +43,27 @@ background-position: center bottom;
 background-color: rgba(255,255,255,0.5);
 background-blend-mode:lighten;
   padding: 180px 0 0 700px;
-  position: relative;
+  padding-top: 50px;
+  padding-left: 50px;
 
 }
 
+
 .container{
-  font-size: 25px;
-position: absolute; 
-top: 85px;
-right: 740px;
-font-family: 'Yusei Magic', sans-serif;
+font-size: 40px;
+text-align: center;
+}
+
+.container h1{
+  font-family: 'Damion'
+}
+
+.container h2{
+  font-family: 'Damion'
 }
 
 /* ナブゲーションエリア */
-ul{
+.menu ul{
   display: flex;
   margin: 0;
   padding-top: 30px;
@@ -48,7 +72,7 @@ justify-content: space-around;
 background-color: aqua
 }
 
-li{
+.menu li{
   width: 200px;
   height: 100px;
   text-align: center;
@@ -56,15 +80,8 @@ li{
 }
 /* ここまでナビエリア */
 
-
-
-.contents{
-  width: 1000px;
-  margin: 150px auto;
-}
-
 section{
-  display: flex;
+display: flex;
 }
 
 
@@ -82,12 +99,47 @@ section{
   margin-bottom: 0px;
 }
 
-.contents2{
+.contents{
   width: 1000px;
   margin: 150px auto;
 }
 
 
+.contents2{
+  width: 1000px;
+  margin-top: 150px;
+  margin-bottom: 65px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contents3{
+  width: 1000px;
+  margin-top: 150px;
+  margin-bottom: 65px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.read-sen{
+  height: 90px;
+  margin-bottom: 30px;
+}
+
+.contents4{
+  width: 1000px;
+  margin-top: 150px;
+  margin-bottom: 65px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.read-sen p{
+  font-size: 35px;
+  text-align: center;
+}
 
 
 
@@ -95,7 +147,7 @@ section{
 .grid{
   display: grid;
 grid-template-columns: 400px 400px;
-grid-template-rows: 400px 400px 400px;
+grid-template-rows: 400px 400px;
 gap: 40px 80px;
 justify-content: center;
 }
@@ -118,28 +170,30 @@ table{
   margin: 0 auto;
 }
 
-.classp{
+/* .classp{
   background-color: yellow;
   font-size: 14px;
-}
+} */
 
 
 
 
 .box2{
-  background-color: hsl(0, 60%, 60%);
+  background-color: hsl(60, 60%, 60%);
   text-align: center;
   font-size: 18px;
 }
 .box3{
   background-color: hsl(120, 60%, 60%);
+  text-align: center;
+  font-size: 18px;
 }
 .box4{
   background-color: hsl(180, 60%, 60%);
+  text-align: center;
+  font-size: 18px;
 }
-.box5{
-  background-color: hsl(240, 60%, 60%);
-}
+
 /* グリッドボックスエリア修了 */
 
 
@@ -148,13 +202,47 @@ table{
 
 /* フッター部分 */
 
-footer{
-
-  height: 150px;
-  background-color: blueviolet;
+#footer{
+ background-color: aquamarine;
 }
 
-@media only screen and (max-width: 600px){
+.inner{
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+#footer .footer-link ul{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#footer .footer-link li{
+  font-size: 12px;
+  padding: 0 20px;
+}
+
+.copyright{
+  font-size: 11px;
+    /* color: #8c8c8c; */
+  text-align: center;
+}
+
+.copyright p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+/* レスポンシブデザイン部分 */
+/* @media only screen and (max-width: 600px){
 
 header{
   padding: 5px;
@@ -166,4 +254,4 @@ header{
   font-size: 14px;
 }
 
-}
+} */
