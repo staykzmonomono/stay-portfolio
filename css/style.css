@@ -220,12 +220,12 @@ table{
 /* フッター部分 */
 
 #footer{
- background-color: aquamarine;
+  background-color: aquamarine;
 }
 
 .inner{  
   margin: 0 auto;
- padding: 30px;
+  padding: 30px;
 }
 
 
